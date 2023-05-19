@@ -1,0 +1,2 @@
+
+Epoch 0:  29%|██▉       | 469/1599 [05:00<12:03,  1.56it/s, v_num=itil, train_loss_step=1.080, train_acc_step=0.000]

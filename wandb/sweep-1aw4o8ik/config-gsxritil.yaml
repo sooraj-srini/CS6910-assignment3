@@ -1,0 +1,14 @@
+wandb_version: 1
+
+bidirectional:
+  value: false
+cell_type:
+  value: LSTM
+decoder_num_layers:
+  value: 1
+dropout:
+  value: 0.4814405818642377
+encoder_num_layers:
+  value: 1
+hidden_size:
+  value: 223

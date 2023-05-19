@@ -1,0 +1,31 @@
+2023-05-18 22:16:38,048 INFO    Thread-35 (_run_job):4932 [wandb_setup.py:_flush():76] Current SDK version is 0.15.2
+2023-05-18 22:16:38,048 INFO    Thread-35 (_run_job):4932 [wandb_setup.py:_flush():76] Configure stats pid to 4932
+2023-05-18 22:16:38,048 INFO    Thread-35 (_run_job):4932 [wandb_setup.py:_flush():76] Loading settings from /home/sooraj/.config/wandb/settings
+2023-05-18 22:16:38,048 INFO    Thread-35 (_run_job):4932 [wandb_setup.py:_flush():76] Loading settings from /home/sooraj/sem/dl/assignment-3/wandb/settings
+2023-05-18 22:16:38,048 INFO    Thread-35 (_run_job):4932 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'CS6910 Assignment 3', 'entity': 'cs20b075', 'root_dir': '/home/sooraj/sem/dl/assignment-3', 'sweep_id': '1t3u8y0a', 'run_id': 'ai7hogtt', 'sweep_param_path': '/home/sooraj/sem/dl/assignment-3/wandb/sweep-1t3u8y0a/config-ai7hogtt.yaml'}
+2023-05-18 22:16:38,048 INFO    Thread-35 (_run_job):4932 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-18 22:16:38,048 INFO    Thread-35 (_run_job):4932 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-18 22:16:38,049 INFO    Thread-35 (_run_job):4932 [wandb_init.py:_log_setup():507] Logging user logs to /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/logs/debug.log
+2023-05-18 22:16:38,049 INFO    Thread-35 (_run_job):4932 [wandb_init.py:_log_setup():508] Logging internal logs to /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/logs/debug-internal.log
+2023-05-18 22:16:38,049 INFO    Thread-35 (_run_job):4932 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fed83800590>
+2023-05-18 22:16:38,049 INFO    Thread-35 (_run_job):4932 [wandb_init.py:init():547] calling init triggers
+2023-05-18 22:16:38,049 INFO    Thread-35 (_run_job):4932 [wandb_init.py:init():554] wandb.init called with sweep_config: {'bidirectional': False, 'cell_type': 'LSTM', 'encoder_num_layers': 2, 'hidden_size': 256}
+config: {}
+2023-05-18 22:16:38,049 INFO    Thread-35 (_run_job):4932 [wandb_init.py:init():596] starting backend
+2023-05-18 22:16:38,049 INFO    Thread-35 (_run_job):4932 [wandb_init.py:init():600] setting up manager
+2023-05-18 22:16:38,055 INFO    Thread-35 (_run_job):4932 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-05-18 22:16:38,060 INFO    Thread-35 (_run_job):4932 [wandb_init.py:init():606] backend started and connected
+2023-05-18 22:16:38,063 INFO    Thread-35 (_run_job):4932 [wandb_run.py:_config_callback():1286] config_cb None None {'bidirectional': False, 'cell_type': 'LSTM', 'encoder_num_layers': 2, 'hidden_size': 256}
+2023-05-18 22:16:38,064 INFO    Thread-35 (_run_job):4932 [wandb_run.py:_label_probe_notebook():1238] probe notebook
+2023-05-18 22:16:38,064 INFO    Thread-35 (_run_job):4932 [wandb_run.py:_label_probe_notebook():1248] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-18 22:16:38,064 INFO    Thread-35 (_run_job):4932 [wandb_init.py:init():700] updated telemetry
+2023-05-18 22:16:38,066 INFO    Thread-35 (_run_job):4932 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-18 22:16:38,510 INFO    Thread-35 (_run_job):4932 [wandb_run.py:_on_init():2177] communicating current version
+2023-05-18 22:16:38,679 INFO    Thread-35 (_run_job):4932 [wandb_run.py:_on_init():2186] got version response upgrade_message: "wandb version 0.15.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-05-18 22:16:38,679 INFO    Thread-35 (_run_job):4932 [wandb_init.py:init():787] starting run threads in backend
+2023-05-18 22:16:38,709 INFO    Thread-35 (_run_job):4932 [wandb_run.py:_console_start():2158] atexit reg
+2023-05-18 22:16:38,709 INFO    Thread-35 (_run_job):4932 [wandb_run.py:_redirect():2013] redirect: 3
+2023-05-18 22:16:38,709 INFO    Thread-35 (_run_job):4932 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-05-18 22:16:38,709 INFO    Thread-35 (_run_job):4932 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-05-18 22:16:38,709 INFO    Thread-35 (_run_job):4932 [wandb_init.py:init():829] run started, returning control to user process

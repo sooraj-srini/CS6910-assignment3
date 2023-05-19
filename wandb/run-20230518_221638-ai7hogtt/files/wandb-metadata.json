@@ -1,0 +1,76 @@
+{
+    "os": "Linux-6.3.1-zen2-1-zen-x86_64-with-glibc2.37",
+    "python": "3.11.3",
+    "heartbeatAt": "2023-05-19T05:16:38.695285",
+    "startedAt": "2023-05-19T05:16:38.046713",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://www.github.com/sooraj-srini/CS6910-assignment3",
+        "commit": "2616df9da51cdf0a13f4ac0e25e4c93671579b5c"
+    },
+    "email": "cs20b075@smail.iitm.ac.in",
+    "root": "/home/sooraj/sem/dl/assignment-3",
+    "host": "archbtw",
+    "username": "sooraj",
+    "executable": "/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2122.1306250000002,
+        "min": 400.0,
+        "max": 4700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1300.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3546.492,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4000.337,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4029.541,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2883.196,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3742.776,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4000.875,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4007.541,
+            "min": 400.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "total": 63.427146911621094,
+        "used": 27.172199249267578
+    },
+    "memory": {
+        "total": 11.417903900146484
+    }
+}

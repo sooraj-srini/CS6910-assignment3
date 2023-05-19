@@ -1,0 +1,106 @@
+2023-05-16 15:45:02,664 INFO    Thread-17 (_run_job):2963 [wandb_setup.py:_flush():76] Current SDK version is 0.15.2
+2023-05-16 15:45:02,664 INFO    Thread-17 (_run_job):2963 [wandb_setup.py:_flush():76] Configure stats pid to 2963
+2023-05-16 15:45:02,664 INFO    Thread-17 (_run_job):2963 [wandb_setup.py:_flush():76] Loading settings from /home/sooraj/.config/wandb/settings
+2023-05-16 15:45:02,664 INFO    Thread-17 (_run_job):2963 [wandb_setup.py:_flush():76] Loading settings from /home/sooraj/sem/dl/assignment-3/wandb/settings
+2023-05-16 15:45:02,664 INFO    Thread-17 (_run_job):2963 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'CS6910 Assignment 3', 'entity': 'cs20b075', 'root_dir': '/home/sooraj/sem/dl/assignment-3', 'run_id': 'dao8mhmi', 'sweep_param_path': '/home/sooraj/sem/dl/assignment-3/wandb/sweep-s3h3lost/config-dao8mhmi.yaml', 'sweep_id': 's3h3lost'}
+2023-05-16 15:45:02,664 INFO    Thread-17 (_run_job):2963 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-16 15:45:02,664 INFO    Thread-17 (_run_job):2963 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-16 15:45:02,664 INFO    Thread-17 (_run_job):2963 [wandb_init.py:_log_setup():507] Logging user logs to /home/sooraj/sem/dl/assignment-3/wandb/run-20230516_154502-dao8mhmi/logs/debug.log
+2023-05-16 15:45:02,664 INFO    Thread-17 (_run_job):2963 [wandb_init.py:_log_setup():508] Logging internal logs to /home/sooraj/sem/dl/assignment-3/wandb/run-20230516_154502-dao8mhmi/logs/debug-internal.log
+2023-05-16 15:45:02,664 INFO    Thread-17 (_run_job):2963 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f7e080e75d0>
+2023-05-16 15:45:02,665 INFO    Thread-17 (_run_job):2963 [wandb_init.py:init():547] calling init triggers
+2023-05-16 15:45:02,665 INFO    Thread-17 (_run_job):2963 [wandb_init.py:init():554] wandb.init called with sweep_config: {'bidirectional': False, 'cell_type': 'GRU', 'decoder_num_layers': 6, 'dropout': 0.5488060158040158, 'encoder_num_layers': 6, 'hidden_size': 142}
+config: {}
+2023-05-16 15:45:02,665 INFO    Thread-17 (_run_job):2963 [wandb_init.py:init():596] starting backend
+2023-05-16 15:45:02,665 INFO    Thread-17 (_run_job):2963 [wandb_init.py:init():600] setting up manager
+2023-05-16 15:45:02,671 INFO    Thread-17 (_run_job):2963 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-05-16 15:45:02,675 INFO    Thread-17 (_run_job):2963 [wandb_init.py:init():606] backend started and connected
+2023-05-16 15:45:02,679 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_config_callback():1286] config_cb None None {'bidirectional': False, 'cell_type': 'GRU', 'decoder_num_layers': 6, 'dropout': 0.5488060158040158, 'encoder_num_layers': 6, 'hidden_size': 142}
+2023-05-16 15:45:02,683 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_label_probe_notebook():1238] probe notebook
+2023-05-16 15:45:02,683 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_label_probe_notebook():1248] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-16 15:45:02,683 INFO    Thread-17 (_run_job):2963 [wandb_init.py:init():700] updated telemetry
+2023-05-16 15:45:02,685 INFO    Thread-17 (_run_job):2963 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-16 15:45:03,441 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_on_init():2177] communicating current version
+2023-05-16 15:45:03,628 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_on_init():2186] got version response 
+2023-05-16 15:45:03,629 INFO    Thread-17 (_run_job):2963 [wandb_init.py:init():787] starting run threads in backend
+2023-05-16 15:45:03,654 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_console_start():2158] atexit reg
+2023-05-16 15:45:03,654 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_redirect():2013] redirect: 3
+2023-05-16 15:45:03,654 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-05-16 15:45:03,654 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-05-16 15:45:03,655 INFO    Thread-17 (_run_job):2963 [wandb_init.py:init():829] run started, returning control to user process
+2023-05-16 15:46:06,147 INFO    MainThread:2963 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-16 15:46:06,148 INFO    MainThread:2963 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-16 15:47:33,326 INFO    MainThread:2963 [wandb_init.py:_resume_backend():423] resuming backend
+2023-05-16 15:47:33,340 INFO    MainThread:2963 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=10
+2023-05-16 15:47:39,705 WARNING MsgRouterThr:2963 [router.py:message_loop():77] message_loop has been closed
+2023-05-16 15:47:40,049 ERROR   Thread-21 (_run_job):2963 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-05-16 15:47:42,245 INFO    Thread-21 (_run_job):2963 [wandb_setup.py:_flush():76] Current SDK version is 0.15.2
+2023-05-16 15:47:42,245 INFO    Thread-21 (_run_job):2963 [wandb_setup.py:_flush():76] Configure stats pid to 2963
+2023-05-16 15:47:42,245 INFO    Thread-21 (_run_job):2963 [wandb_setup.py:_flush():76] Loading settings from /home/sooraj/.config/wandb/settings
+2023-05-16 15:47:42,245 INFO    Thread-21 (_run_job):2963 [wandb_setup.py:_flush():76] Loading settings from /home/sooraj/sem/dl/assignment-3/wandb/settings
+2023-05-16 15:47:42,245 INFO    Thread-21 (_run_job):2963 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'CS6910 Assignment 3', 'entity': 'cs20b075', 'root_dir': '/home/sooraj/sem/dl/assignment-3', 'run_id': 'gsxritil', 'sweep_param_path': '/home/sooraj/sem/dl/assignment-3/wandb/sweep-1aw4o8ik/config-gsxritil.yaml', 'sweep_id': '1aw4o8ik'}
+2023-05-16 15:47:42,245 INFO    Thread-21 (_run_job):2963 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-16 15:47:42,245 INFO    Thread-21 (_run_job):2963 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-16 15:47:42,245 INFO    Thread-21 (_run_job):2963 [wandb_init.py:_log_setup():507] Logging user logs to /home/sooraj/sem/dl/assignment-3/wandb/run-20230516_154742-gsxritil/logs/debug.log
+2023-05-16 15:47:42,246 INFO    Thread-21 (_run_job):2963 [wandb_init.py:_log_setup():508] Logging internal logs to /home/sooraj/sem/dl/assignment-3/wandb/run-20230516_154742-gsxritil/logs/debug-internal.log
+2023-05-16 15:47:42,247 INFO    Thread-21 (_run_job):2963 [wandb_init.py:init():547] calling init triggers
+2023-05-16 15:47:42,247 INFO    Thread-21 (_run_job):2963 [wandb_init.py:init():554] wandb.init called with sweep_config: {'bidirectional': False, 'cell_type': 'LSTM', 'decoder_num_layers': 1, 'dropout': 0.4814405818642377, 'encoder_num_layers': 1, 'hidden_size': 223}
+config: {}
+2023-05-16 15:47:42,247 INFO    Thread-21 (_run_job):2963 [wandb_init.py:init():596] starting backend
+2023-05-16 15:47:42,247 INFO    Thread-21 (_run_job):2963 [wandb_init.py:init():600] setting up manager
+2023-05-16 15:47:42,255 INFO    Thread-21 (_run_job):2963 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-05-16 15:47:42,262 INFO    Thread-21 (_run_job):2963 [wandb_init.py:init():606] backend started and connected
+2023-05-16 15:47:42,268 INFO    Thread-21 (_run_job):2963 [wandb_run.py:_config_callback():1286] config_cb None None {'bidirectional': False, 'cell_type': 'LSTM', 'decoder_num_layers': 1, 'dropout': 0.4814405818642377, 'encoder_num_layers': 1, 'hidden_size': 223}
+2023-05-16 15:47:42,286 INFO    Thread-21 (_run_job):2963 [wandb_run.py:_label_probe_notebook():1238] probe notebook
+2023-05-16 15:47:42,286 INFO    Thread-21 (_run_job):2963 [wandb_run.py:_label_probe_notebook():1248] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-16 15:47:42,286 INFO    Thread-21 (_run_job):2963 [wandb_init.py:init():700] updated telemetry
+2023-05-16 15:47:42,293 INFO    Thread-21 (_run_job):2963 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-16 15:47:42,714 INFO    Thread-21 (_run_job):2963 [wandb_run.py:_on_init():2177] communicating current version
+2023-05-16 15:47:42,966 INFO    Thread-21 (_run_job):2963 [wandb_run.py:_on_init():2186] got version response 
+2023-05-16 15:47:42,966 INFO    Thread-21 (_run_job):2963 [wandb_init.py:init():787] starting run threads in backend
+2023-05-16 15:47:43,040 INFO    Thread-21 (_run_job):2963 [wandb_run.py:_console_start():2158] atexit reg
+2023-05-16 15:47:43,040 INFO    Thread-21 (_run_job):2963 [wandb_run.py:_redirect():2013] redirect: 3
+2023-05-16 15:47:43,040 INFO    Thread-21 (_run_job):2963 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-05-16 15:47:43,040 INFO    Thread-21 (_run_job):2963 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-05-16 15:47:43,041 INFO    Thread-21 (_run_job):2963 [wandb_init.py:init():829] run started, returning control to user process
+2023-05-16 15:52:41,750 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_finish():1893] finishing run cs20b075/CS6910 Assignment 3/gsxritil
+2023-05-16 15:52:41,753 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_atexit_cleanup():2127] got exitcode: 1
+2023-05-16 15:52:41,753 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_restore():2110] restore
+2023-05-16 15:52:41,754 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_restore():2116] restore done
+2023-05-16 15:52:46,342 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-05-16 15:52:46,343 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-05-16 15:52:46,355 INFO    Thread-17 (_run_job):2963 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-05-16 15:52:56,896 ERROR   MainThread:2963 [pyagent.py:_run_jobs_from_queue():226] Run gsxritil errored: UsageError('Run (gsxritil) is finished. The call to `log` will be ignored. Please make sure that you are using an active run.')
+2023-05-16 15:53:07,512 ERROR   Thread-24 (_run_job):2963 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-05-16 15:53:09,240 INFO    Thread-24 (_run_job):2963 [wandb_setup.py:_flush():76] Current SDK version is 0.15.2
+2023-05-16 15:53:09,241 INFO    Thread-24 (_run_job):2963 [wandb_setup.py:_flush():76] Configure stats pid to 2963
+2023-05-16 15:53:09,241 INFO    Thread-24 (_run_job):2963 [wandb_setup.py:_flush():76] Loading settings from /home/sooraj/.config/wandb/settings
+2023-05-16 15:53:09,241 INFO    Thread-24 (_run_job):2963 [wandb_setup.py:_flush():76] Loading settings from /home/sooraj/sem/dl/assignment-3/wandb/settings
+2023-05-16 15:53:09,241 INFO    Thread-24 (_run_job):2963 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'CS6910 Assignment 3', 'entity': 'cs20b075', 'root_dir': '/home/sooraj/sem/dl/assignment-3', 'run_id': 'lznk3xdz', 'sweep_param_path': '/home/sooraj/sem/dl/assignment-3/wandb/sweep-1aw4o8ik/config-lznk3xdz.yaml', 'sweep_id': '1aw4o8ik'}
+2023-05-16 15:53:09,241 INFO    Thread-24 (_run_job):2963 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-16 15:53:09,241 INFO    Thread-24 (_run_job):2963 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-16 15:53:09,241 INFO    Thread-24 (_run_job):2963 [wandb_init.py:_log_setup():507] Logging user logs to /home/sooraj/sem/dl/assignment-3/wandb/run-20230516_155309-lznk3xdz/logs/debug.log
+2023-05-16 15:53:09,241 INFO    Thread-24 (_run_job):2963 [wandb_init.py:_log_setup():508] Logging internal logs to /home/sooraj/sem/dl/assignment-3/wandb/run-20230516_155309-lznk3xdz/logs/debug-internal.log
+2023-05-16 15:53:09,242 INFO    Thread-24 (_run_job):2963 [wandb_init.py:init():547] calling init triggers
+2023-05-16 15:53:09,242 INFO    Thread-24 (_run_job):2963 [wandb_init.py:init():554] wandb.init called with sweep_config: {'bidirectional': True, 'cell_type': 'LSTM', 'decoder_num_layers': 3, 'dropout': 0.2161111587387729, 'encoder_num_layers': 2, 'hidden_size': 246}
+config: {}
+2023-05-16 15:53:09,242 INFO    Thread-24 (_run_job):2963 [wandb_init.py:init():596] starting backend
+2023-05-16 15:53:09,242 INFO    Thread-24 (_run_job):2963 [wandb_init.py:init():600] setting up manager
+2023-05-16 15:53:09,247 INFO    Thread-24 (_run_job):2963 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-05-16 15:53:09,251 INFO    Thread-24 (_run_job):2963 [wandb_init.py:init():606] backend started and connected
+2023-05-16 15:53:09,253 INFO    Thread-24 (_run_job):2963 [wandb_run.py:_config_callback():1286] config_cb None None {'bidirectional': True, 'cell_type': 'LSTM', 'decoder_num_layers': 3, 'dropout': 0.2161111587387729, 'encoder_num_layers': 2, 'hidden_size': 246}
+2023-05-16 15:53:09,256 INFO    Thread-24 (_run_job):2963 [wandb_run.py:_label_probe_notebook():1238] probe notebook
+2023-05-16 15:53:09,257 INFO    Thread-24 (_run_job):2963 [wandb_run.py:_label_probe_notebook():1248] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-16 15:53:09,257 INFO    Thread-24 (_run_job):2963 [wandb_init.py:init():700] updated telemetry
+2023-05-16 15:53:09,259 INFO    Thread-24 (_run_job):2963 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-16 15:53:09,688 INFO    Thread-24 (_run_job):2963 [wandb_run.py:_on_init():2177] communicating current version
+2023-05-16 15:53:09,883 INFO    Thread-24 (_run_job):2963 [wandb_run.py:_on_init():2186] got version response 
+2023-05-16 15:53:09,883 INFO    Thread-24 (_run_job):2963 [wandb_init.py:init():787] starting run threads in backend
+2023-05-16 15:53:09,923 INFO    Thread-24 (_run_job):2963 [wandb_run.py:_console_start():2158] atexit reg
+2023-05-16 15:53:09,923 INFO    Thread-24 (_run_job):2963 [wandb_run.py:_redirect():2013] redirect: 3
+2023-05-16 15:53:09,923 INFO    Thread-24 (_run_job):2963 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-05-16 15:53:09,923 INFO    Thread-24 (_run_job):2963 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-05-16 15:53:09,924 INFO    Thread-24 (_run_job):2963 [wandb_init.py:init():829] run started, returning control to user process
+2023-05-16 15:55:51,129 INFO    MainThread:2963 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-16 15:55:51,130 INFO    MainThread:2963 [wandb_init.py:_pause_backend():418] pausing backend
+2023-05-16 16:56:39,933 WARNING MsgRouterThr:2963 [router.py:message_loop():77] message_loop has been closed

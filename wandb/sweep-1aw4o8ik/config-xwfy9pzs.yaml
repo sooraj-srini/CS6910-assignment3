@@ -1,0 +1,14 @@
+wandb_version: 1
+
+bidirectional:
+  value: true
+cell_type:
+  value: GRU
+decoder_num_layers:
+  value: 1
+dropout:
+  value: 0.10712973873469062
+encoder_num_layers:
+  value: 2
+hidden_size:
+  value: 188

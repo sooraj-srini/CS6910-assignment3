@@ -1,0 +1,51 @@
+wandb_version: 1
+
+bidirectional:
+  desc: null
+  value: true
+cell_type:
+  desc: null
+  value: LSTM
+decoder_num_layers:
+  desc: null
+  value: 2
+dropout:
+  desc: null
+  value: 0.10877798855641813
+encoder_num_layers:
+  desc: null
+  value: 3
+hidden_size:
+  desc: null
+  value: 138
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.3
+    cli_version: 0.15.2
+    framework: lightning
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1684304716.673254
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 9
+      - 55
+      2:
+      - 1
+      - 2
+      - 3
+      - 9
+      - 55
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.11.3
+      5: 0.15.2
+      8:
+      - 1
+      - 5
