@@ -1,0 +1,35 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+  | Name    | Type        | Params
+----------------------------------------
+0 | encoder | Encoder     | 2.6 M
+1 | decoder | AttnDecoder | 3.2 M
+----------------------------------------
+5.8 M     Trainable params
+0         Non-trainable params
+5.8 M     Total params
+23.368    Total estimated model params size (MB)
+/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:430: PossibleUserWarning: The dataloader, val_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 8 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:430: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 8 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:   2%|▉                                                       | 28/1599 [00:27<26:04,  1.00it/s, v_num=7rps, train_loss_step=1.510, train_acc_step=0.000]
+/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/call.py:54: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+
+Epoch 0:   2%|█                                                       | 30/1599 [00:29<25:55,  1.01it/s, v_num=7rps, train_loss_step=1.450, train_acc_step=0.000]

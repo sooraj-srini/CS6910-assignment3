@@ -132,3 +132,441 @@
 2023-05-18 22:18:08,710 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
 2023-05-18 22:18:08,711 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
 2023-05-18 22:18:09,549 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:11,550 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:11,827 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:18:13,551 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:15,552 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:16,913 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:18:17,552 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:19,553 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:19,927 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:18:19,928 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:18:19,928 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:18:19,929 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:18:20,554 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:18:21,554 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:22,064 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:18:23,555 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:23,710 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:18:23,711 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:18:25,556 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:27,293 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:18:27,556 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:29,557 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:31,557 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:32,350 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:18:33,558 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:35,559 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:37,430 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:18:37,561 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:38,695 DEBUG   SenderThread:9438 [sender.py:send():375] send: stats
+2023-05-18 22:18:38,710 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:18:38,710 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:18:39,562 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:41,562 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:42,569 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:18:43,563 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:45,477 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:18:45,477 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:18:45,478 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:18:45,478 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:18:45,564 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:45,564 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:18:47,564 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:47,878 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:18:49,565 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:51,566 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:52,937 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:18:53,567 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:53,710 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:18:53,711 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:18:55,568 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:57,568 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:18:58,335 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:18:59,569 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:01,570 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:03,571 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:03,650 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:05,571 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:07,572 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:08,696 DEBUG   SenderThread:9438 [sender.py:send():375] send: stats
+2023-05-18 22:19:08,697 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:08,710 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:19:08,711 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:19:09,573 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:10,033 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:19:10,034 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:19:10,034 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:19:10,035 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:19:10,574 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:19:11,574 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:13,575 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:13,795 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:15,576 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:17,576 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:19,109 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:19,577 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:21,578 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:23,579 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:23,710 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:19:23,710 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:19:24,212 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:25,580 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:27,581 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:29,572 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:29,582 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:31,583 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:33,584 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:34,361 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:19:34,362 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:19:34,362 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:19:34,362 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:19:34,584 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:19:34,835 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:35,585 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:37,585 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:38,697 DEBUG   SenderThread:9438 [sender.py:send():375] send: stats
+2023-05-18 22:19:38,710 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:19:38,711 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:19:39,586 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:40,189 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:41,587 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:43,588 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:45,480 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:45,588 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:47,589 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:49,590 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:50,554 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:51,590 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:53,591 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:53,711 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:19:53,711 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:19:55,592 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:56,088 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:19:57,593 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:59,077 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:19:59,078 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:19:59,078 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:19:59,079 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:19:59,593 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:19:59,593 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:20:01,473 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:01,594 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:03,595 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:05,595 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:06,595 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:07,596 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:08,697 DEBUG   SenderThread:9438 [sender.py:send():375] send: stats
+2023-05-18 22:20:08,710 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:20:08,711 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:20:09,597 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:11,598 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:11,666 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:13,599 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:15,600 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:17,094 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:17,600 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:19,601 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:21,602 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:22,519 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:23,603 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:23,711 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:20:23,711 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:20:23,995 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:20:23,996 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:20:23,996 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:20:23,996 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:20:24,603 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:20:25,604 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:27,604 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:27,932 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:29,605 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:31,606 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:33,221 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:33,606 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:35,607 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:37,608 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:38,493 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:38,698 DEBUG   SenderThread:9438 [sender.py:send():375] send: stats
+2023-05-18 22:20:38,711 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:20:38,711 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:20:39,609 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:41,609 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:43,597 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:43,610 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:45,611 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:47,611 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:48,510 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:20:48,511 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:20:48,511 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:20:48,511 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:20:48,612 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:20:48,971 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:49,612 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:51,613 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:53,613 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:53,711 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:20:53,711 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:20:54,424 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:20:55,615 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:57,615 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:59,616 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:20:59,830 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:01,617 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:03,618 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:05,152 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:05,619 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:07,620 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:08,699 DEBUG   SenderThread:9438 [sender.py:send():375] send: stats
+2023-05-18 22:21:08,711 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:21:08,712 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:21:09,621 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:10,428 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:11,621 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:13,622 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:13,625 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:21:13,626 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:21:13,626 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:21:13,627 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:21:14,623 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:21:15,623 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:15,642 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:17,624 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:19,625 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:20,719 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:21,626 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:23,626 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:23,711 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:21:23,712 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:21:25,627 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:25,862 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:27,628 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:29,628 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:31,078 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:31,629 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:33,630 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:35,631 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:36,230 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:37,632 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:38,700 DEBUG   SenderThread:9438 [sender.py:send():375] send: stats
+2023-05-18 22:21:38,711 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:21:38,712 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:21:39,268 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:21:39,269 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:21:39,269 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:21:39,269 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:21:39,633 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:39,633 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:21:41,634 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:41,678 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:43,635 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:45,636 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:46,730 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:47,637 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:49,638 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:51,638 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:52,230 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:53,639 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:53,711 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:21:53,712 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:21:55,640 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:57,295 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:21:57,641 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:21:59,642 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:01,643 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:02,796 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:03,643 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:04,328 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:22:04,328 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:22:04,328 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:22:04,329 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:22:04,644 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:22:05,644 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:07,645 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:08,022 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:08,700 DEBUG   SenderThread:9438 [sender.py:send():375] send: stats
+2023-05-18 22:22:08,711 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:22:08,712 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:22:09,645 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:11,646 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:13,051 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:13,647 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:13,782 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: pause
+2023-05-18 22:22:13,782 INFO    HandlerThread:9438 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-05-18 22:22:13,782 INFO    HandlerThread:9438 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-18 22:22:13,783 DEBUG   SystemMonitor:9438 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-18 22:22:13,783 DEBUG   SystemMonitor:9438 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-18 22:22:13,784 INFO    HandlerThread:9438 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-18 22:22:13,784 INFO    HandlerThread:9438 [interfaces.py:finish():202] Joined disk monitor
+2023-05-18 22:22:13,784 INFO    HandlerThread:9438 [interfaces.py:finish():202] Joined memory monitor
+2023-05-18 22:22:13,784 INFO    HandlerThread:9438 [interfaces.py:finish():202] Joined network monitor
+2023-05-18 22:22:13,785 DEBUG   SenderThread:9438 [sender.py:send():375] send: stats
+2023-05-18 22:22:15,648 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:17,648 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:18,468 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:19,650 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:21,651 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:23,652 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:23,712 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:22:23,712 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:22:23,792 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:25,652 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:27,653 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:28,883 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:29,654 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:31,655 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:31,969 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:22:31,969 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:22:31,970 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:22:31,970 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:22:32,655 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:22:33,656 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:34,199 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:35,656 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:37,657 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:38,712 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:22:38,712 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:22:39,460 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:39,658 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:41,659 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:43,660 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:44,469 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:45,660 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:47,661 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:49,662 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:49,993 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:51,663 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:53,663 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:53,712 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:22:53,712 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:22:55,307 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:22:55,664 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:57,665 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:22:59,666 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:00,630 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:01,667 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:03,667 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:03,956 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:23:03,958 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:23:03,958 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:23:03,959 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:23:04,668 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:23:05,668 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:06,097 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:07,669 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:08,712 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:23:08,712 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:23:09,670 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:11,578 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:11,670 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:13,671 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:15,672 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:16,903 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:17,672 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:19,673 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:21,674 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:22,163 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:23,674 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:23,712 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:23:23,712 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:23:25,675 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:27,391 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:27,676 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:29,676 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:31,677 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:32,796 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:32,799 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:23:32,799 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:23:32,799 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:23:32,799 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:23:33,678 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:33,678 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:23:35,679 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:37,679 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:37,929 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:38,712 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:23:38,713 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:23:39,680 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:41,681 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:43,362 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:43,682 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:45,683 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:47,683 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:48,723 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:49,684 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:51,685 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:53,686 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:53,712 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:23:53,713 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:23:53,797 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:55,686 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:57,687 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:59,264 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:23:59,266 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:23:59,267 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:23:59,267 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:23:59,268 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:23:59,688 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:23:59,688 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:24:01,688 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:03,689 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:04,507 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:05,690 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:07,691 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:08,713 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:24:08,713 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:24:09,594 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:09,692 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:11,693 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:13,693 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:14,850 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:15,694 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:17,695 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:19,695 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:19,933 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:21,696 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:23,697 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:23,715 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:24:23,716 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:24:24,300 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:24:24,301 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:24:24,302 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:24:24,302 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:24:24,697 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:24:25,333 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:25,698 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:27,698 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:29,699 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:30,369 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:31,700 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:33,701 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:35,458 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:35,702 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:37,702 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:38,713 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:24:38,713 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:24:39,703 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:40,528 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:41,704 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:43,704 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:45,673 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:45,705 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:47,707 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:49,707 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:50,651 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-18 22:24:50,652 DEBUG   SenderThread:9438 [sender.py:send():375] send: history
+2023-05-18 22:24:50,652 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: summary_record
+2023-05-18 22:24:50,653 INFO    SenderThread:9438 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-18 22:24:50,707 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/wandb-summary.json
+2023-05-18 22:24:51,519 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:51,708 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:53,708 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:53,713 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-18 22:24:53,714 DEBUG   SenderThread:9438 [sender.py:send_request():402] send_request: stop_status
+2023-05-18 22:24:55,709 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:56,955 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report
+2023-05-18 22:24:57,710 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:24:59,711 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:25:01,712 INFO    Thread-12 :9438 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/sooraj/sem/dl/assignment-3/wandb/run-20230518_221638-ai7hogtt/files/output.log
+2023-05-18 22:25:02,797 INFO    MainThread:9438 [internal.py:handle_exit():76] Internal process exited
+2023-05-18 22:25:02,800 DEBUG   HandlerThread:9438 [handler.py:handle_request():144] handle_request: status_report

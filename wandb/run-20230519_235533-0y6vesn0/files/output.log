@@ -1,0 +1,54 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+  | Name    | Type        | Params
+----------------------------------------
+0 | encoder | Encoder     | 2.6 M
+1 | decoder | AttnDecoder | 3.1 M
+----------------------------------------
+5.7 M     Trainable params
+0         Non-trainable params
+5.7 M     Total params
+22.999    Total estimated model params size (MB)
+/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:430: PossibleUserWarning: The dataloader, val_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 8 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/home/sooraj/sem/dl/assignment-3/train.py", line 570, in <module>
+    trainer.fit(model, data_module)
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/trainer.py", line 520, in fit
+    call._call_and_handle_interrupt(
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/call.py", line 44, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/trainer.py", line 559, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/trainer.py", line 935, in _run
+    results = self._run_stage()
+              ^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/trainer.py", line 976, in _run_stage
+    self._run_sanity_check()
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/trainer.py", line 1005, in _run_sanity_check
+    val_loop.run()
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/loops/utilities.py", line 177, in _decorator
+    return loop_run(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 115, in run
+    self._evaluation_step(batch, batch_idx, dataloader_idx)
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 375, in _evaluation_step
+    output = call._call_strategy_hook(trainer, hook_name, *step_kwargs.values())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/call.py", line 288, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/strategies/strategy.py", line 378, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/sem/dl/assignment-3/train.py", line 475, in validation_step
+    loss += nn.functional.nll_loss(squeezed_output[i], target[i, j])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/torch/nn/functional.py", line 2704, in nll_loss
+    return torch._C._nn.nll_loss_nd(input, target, weight, _Reduction.get_enum(reduction), ignore_index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: Target 32 is out of bounds.
+Sanity Checking DataLoader 0:   0%|                                                                                                        | 0/2 [00:00<?, ?it/s]

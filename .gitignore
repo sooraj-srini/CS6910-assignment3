@@ -1,4 +1,5 @@
 aksharantar_sampled.zip 
 aksharantar_sampled/
-
+*.ckpt
+*.pt
 
