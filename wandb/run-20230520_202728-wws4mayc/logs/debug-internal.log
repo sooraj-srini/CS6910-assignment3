@@ -1,0 +1,124 @@
+2023-05-20 20:27:28,364 INFO    StreamThr :25996 [internal.py:wandb_internal():86] W&B internal server running at pid: 25996, started at: 2023-05-20 20:27:28.364534
+2023-05-20 20:27:28,366 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status
+2023-05-20 20:27:28,371 INFO    WriterThread:25996 [datastore.py:open_for_write():85] open: ./wandb/run-20230520_202728-wws4mayc/run-wws4mayc.wandb
+2023-05-20 20:27:28,371 DEBUG   SenderThread:25996 [sender.py:send():375] send: header
+2023-05-20 20:27:28,374 DEBUG   SenderThread:25996 [sender.py:send():375] send: run
+2023-05-20 20:27:28,374 INFO    SenderThread:25996 [sender.py:_maybe_setup_resume():761] checking resume status for cs20b075/CS6910 Assignment 3/wws4mayc
+2023-05-20 20:27:28,767 INFO    SenderThread:25996 [dir_watcher.py:__init__():219] watching files in: ./wandb/run-20230520_202728-wws4mayc/files
+2023-05-20 20:27:28,767 INFO    SenderThread:25996 [sender.py:_start_run_threads():1124] run started: wws4mayc with start time 1684639648.367684
+2023-05-20 20:27:28,767 DEBUG   SenderThread:25996 [sender.py:send_request():402] send_request: summary_record
+2023-05-20 20:27:28,767 INFO    SenderThread:25996 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-20 20:27:28,767 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: check_version
+2023-05-20 20:27:28,768 DEBUG   SenderThread:25996 [sender.py:send_request():402] send_request: check_version
+2023-05-20 20:27:28,961 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: run_start
+2023-05-20 20:27:28,962 DEBUG   HandlerThread:25996 [system_info.py:__init__():31] System info init
+2023-05-20 20:27:28,962 DEBUG   HandlerThread:25996 [system_info.py:__init__():46] System info init done
+2023-05-20 20:27:28,962 INFO    HandlerThread:25996 [system_monitor.py:start():181] Starting system monitor
+2023-05-20 20:27:28,962 INFO    SystemMonitor:25996 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-20 20:27:28,962 INFO    HandlerThread:25996 [system_monitor.py:probe():201] Collecting system info
+2023-05-20 20:27:28,962 INFO    SystemMonitor:25996 [interfaces.py:start():190] Started cpu monitoring
+2023-05-20 20:27:28,962 INFO    SystemMonitor:25996 [interfaces.py:start():190] Started disk monitoring
+2023-05-20 20:27:28,963 INFO    SystemMonitor:25996 [interfaces.py:start():190] Started memory monitoring
+2023-05-20 20:27:28,963 INFO    SystemMonitor:25996 [interfaces.py:start():190] Started network monitoring
+2023-05-20 20:27:28,965 DEBUG   HandlerThread:25996 [system_info.py:probe():195] Probing system
+2023-05-20 20:27:28,967 DEBUG   HandlerThread:25996 [system_info.py:_probe_git():180] Probing git
+2023-05-20 20:27:28,970 DEBUG   HandlerThread:25996 [system_info.py:_probe_git():188] Probing git done
+2023-05-20 20:27:28,970 DEBUG   HandlerThread:25996 [system_info.py:probe():240] Probing system done
+2023-05-20 20:27:28,970 DEBUG   HandlerThread:25996 [system_monitor.py:probe():210] {'os': 'Linux-6.3.1-zen2-1-zen-x86_64-with-glibc2.37', 'python': '3.11.3', 'heartbeatAt': '2023-05-21T03:27:28.965540', 'startedAt': '2023-05-21T03:27:28.350585', 'docker': None, 'cuda': None, 'args': ('--attention', 'true', '--train_path', 'aksharantar_sampled/tam/tam_train.csv', '--val_path', 'aksharantar_sampled/tam/tam_valid.csv', '-l', 'tam'), 'state': 'running', 'program': '/home/sooraj/sem/dl/assignment-3/train.py', 'codePath': 'train.py', 'git': {'remote': 'https://www.github.com/sooraj-srini/CS6910-assignment3', 'commit': 'c56532979191efce646991f7eb07716b2b1a80cd'}, 'email': 'cs20b075@smail.iitm.ac.in', 'root': '/home/sooraj/sem/dl/assignment-3', 'host': 'archbtw', 'username': 'sooraj', 'executable': '/usr/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3604.805375, 'min': 400.0, 'max': 4700.0}, 'cpu_freq_per_core': [{'current': 4007.437, 'min': 400.0, 'max': 4700.0}, {'current': 3617.195, 'min': 400.0, 'max': 4700.0}, {'current': 4086.867, 'min': 400.0, 'max': 4700.0}, {'current': 4086.426, 'min': 400.0, 'max': 4700.0}, {'current': 4037.316, 'min': 400.0, 'max': 4700.0}, {'current': 3751.022, 'min': 400.0, 'max': 4700.0}, {'current': 3900.616, 'min': 400.0, 'max': 4700.0}, {'current': 2095.896, 'min': 400.0, 'max': 4700.0}], 'disk': {'total': 63.427146911621094, 'used': 28.122051239013672}, 'memory': {'total': 11.41790771484375}}
+2023-05-20 20:27:28,970 INFO    HandlerThread:25996 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-20 20:27:28,970 INFO    HandlerThread:25996 [system_monitor.py:probe():214] Publishing system info
+2023-05-20 20:27:28,970 DEBUG   HandlerThread:25996 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-20 20:27:28,970 DEBUG   HandlerThread:25996 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-20 20:27:28,970 INFO    HandlerThread:25996 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-20 20:27:28,972 DEBUG   SenderThread:25996 [sender.py:send():375] send: files
+2023-05-20 20:27:28,972 INFO    SenderThread:25996 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-20 20:27:28,975 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-20 20:27:28,975 DEBUG   SenderThread:25996 [sender.py:send_request():402] send_request: stop_status
+2023-05-20 20:27:29,190 DEBUG   SenderThread:25996 [sender.py:send():375] send: telemetry
+2023-05-20 20:27:29,190 DEBUG   SenderThread:25996 [sender.py:send():375] send: metric
+2023-05-20 20:27:29,190 DEBUG   SenderThread:25996 [sender.py:send():375] send: telemetry
+2023-05-20 20:27:29,190 DEBUG   SenderThread:25996 [sender.py:send():375] send: metric
+2023-05-20 20:27:29,190 WARNING SenderThread:25996 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-05-20 20:27:29,564 INFO    wandb-upload_0:25996 [upload_job.py:push():137] Uploaded file /tmp/tmpuwzw454hwandb/ew1omz8f-wandb-metadata.json
+2023-05-20 20:27:29,768 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_created():278] file/dir created: ./wandb/run-20230520_202728-wws4mayc/files/requirements.txt
+2023-05-20 20:27:29,769 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_created():278] file/dir created: ./wandb/run-20230520_202728-wws4mayc/files/wandb-metadata.json
+2023-05-20 20:27:29,769 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_created():278] file/dir created: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:29,769 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_created():278] file/dir created: ./wandb/run-20230520_202728-wws4mayc/files/wandb-summary.json
+2023-05-20 20:27:31,769 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:33,501 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:27:33,769 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:35,770 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:37,771 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:38,617 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:27:39,772 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:41,773 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:43,739 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:27:43,774 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:43,976 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-20 20:27:43,977 DEBUG   SenderThread:25996 [sender.py:send_request():402] send_request: stop_status
+2023-05-20 20:27:45,775 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:47,776 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:49,434 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:27:49,777 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:51,778 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:53,779 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:54,526 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:27:55,780 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:57,781 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:27:58,976 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-20 20:27:58,978 DEBUG   SenderThread:25996 [sender.py:send_request():402] send_request: stop_status
+2023-05-20 20:27:59,690 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:27:59,782 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:00,782 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/config.yaml
+2023-05-20 20:28:01,783 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:03,784 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:05,400 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:28:05,785 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:07,786 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:09,731 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-20 20:28:09,732 DEBUG   SenderThread:25996 [sender.py:send():375] send: metric
+2023-05-20 20:28:09,732 DEBUG   SenderThread:25996 [sender.py:send():375] send: metric
+2023-05-20 20:28:09,733 DEBUG   SenderThread:25996 [sender.py:send():375] send: metric
+2023-05-20 20:28:09,733 DEBUG   SenderThread:25996 [sender.py:send():375] send: history
+2023-05-20 20:28:09,733 DEBUG   SenderThread:25996 [sender.py:send_request():402] send_request: summary_record
+2023-05-20 20:28:09,733 INFO    SenderThread:25996 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-20 20:28:09,787 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:09,787 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/wandb-summary.json
+2023-05-20 20:28:10,528 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:28:11,787 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:13,788 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:13,976 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-20 20:28:13,977 DEBUG   SenderThread:25996 [sender.py:send_request():402] send_request: stop_status
+2023-05-20 20:28:15,789 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:16,166 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:28:17,790 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:19,791 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:21,483 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:28:21,792 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:23,793 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:25,794 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:26,743 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:28:27,795 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:28,964 DEBUG   SystemMonitor:25996 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-20 20:28:28,965 DEBUG   SenderThread:25996 [sender.py:send():375] send: stats
+2023-05-20 20:28:28,976 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-20 20:28:28,976 DEBUG   SenderThread:25996 [sender.py:send_request():402] send_request: stop_status
+2023-05-20 20:28:29,796 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:31,798 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:31,979 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:28:32,799 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/config.yaml
+2023-05-20 20:28:33,799 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:35,800 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:37,519 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:28:37,801 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:39,802 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:41,803 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:42,846 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:28:43,804 INFO    Thread-12 :25996 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./wandb/run-20230520_202728-wws4mayc/files/output.log
+2023-05-20 20:28:47,846 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report
+2023-05-20 20:28:50,991 INFO    memory    :25996 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2023-05-20 20:28:50,992 DEBUG   SystemMonitor:25996 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-20 20:28:50,992 DEBUG   SystemMonitor:25996 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-20 20:28:50,993 DEBUG   SenderThread:25996 [sender.py:send():375] send: stats
+2023-05-20 20:28:52,990 INFO    MainThread:25996 [internal.py:handle_exit():76] Internal process exited
+2023-05-20 20:28:52,993 DEBUG   HandlerThread:25996 [handler.py:handle_request():144] handle_request: status_report

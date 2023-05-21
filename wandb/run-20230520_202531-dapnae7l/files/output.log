@@ -1,0 +1,78 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+  | Name    | Type        | Params
+----------------------------------------
+0 | encoder | Encoder     | 2.6 M
+1 | decoder | AttnDecoder | 3.2 M
+----------------------------------------
+5.8 M     Trainable params
+0         Non-trainable params
+5.8 M     Total params
+23.368    Total estimated model params size (MB)
+/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:430: PossibleUserWarning: The dataloader, val_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 8 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/home/sooraj/sem/dl/assignment-3/train.py", line 639, in <module>
+    trainer.fit(model, data_module)
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/trainer.py", line 520, in fit
+    call._call_and_handle_interrupt(
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/call.py", line 44, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/trainer.py", line 559, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/trainer.py", line 935, in _run
+    results = self._run_stage()
+              ^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/trainer.py", line 976, in _run_stage
+    self._run_sanity_check()
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/trainer/trainer.py", line 1005, in _run_sanity_check
+    val_loop.run()
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/loops/utilities.py", line 177, in _decorator
+    return loop_run(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 108, in run
+    batch, batch_idx, dataloader_idx = next(data_fetcher)
+                                       ^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/loops/fetchers.py", line 136, in __next__
+    self._fetch_next_batch(self.dataloader_iter)
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/loops/fetchers.py", line 150, in _fetch_next_batch
+    batch = next(iterator)
+            ^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/utilities/combined_loader.py", line 276, in __next__
+    out = next(self._iterator)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/lightning/pytorch/utilities/combined_loader.py", line 122, in __next__
+    out = next(self.iterators[self._iterator_idx])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 634, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1346, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1372, in _process_data
+    data.reraise()
+  File "/home/sooraj/.local/lib/python3.11/site-packages/torch/_utils.py", line 644, in reraise
+    raise exception
+KeyError: Caught KeyError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/sooraj/.local/lib/python3.11/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/.local/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/home/sooraj/sem/dl/assignment-3/train.py", line 580, in __getitem__
+    return convert_word_to_tensor(self.input[index], 'eng'), convert_word_to_tensor(self.output[index], 'hin')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sooraj/sem/dl/assignment-3/train.py", line 558, in convert_word_to_tensor
+    a.append(lang_to_int[i])
+             ~~~~~~~~~~~^^^
+KeyError: 'ந'
+Sanity Checking: 0it [00:00, ?it/s]
